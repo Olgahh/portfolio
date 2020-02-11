@@ -1,0 +1,45 @@
+header{
+  text-align: center;
+  background-color: #FF5733;
+  color: white;
+  width: 100%;
+}
+h1{
+  word-spacing: 3px;
+  font-family: Arial
+}
+ul{
+  list-style: none;
+  text-align: justify;
+}
+.hobbies{
+  text-align: center;
+  margin: 10px;
+  border: solid #581845 3px;
+  color: #581845;
+}
+.interests{
+  text-align: center;
+  margin: 10px;
+  border: solid #581845 3px;
+  color: #581845;
+}
+.footer{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color:#DAF7A6;
+  color: black;
+  text-align: center;
+}
+
+.img-icon{
+  width: 30px;
+}
+ul#my-profiles li{
+  float: none;
+  display: inline;
+  padding-left: 60px;
+  padding-right: 60px;
+}
