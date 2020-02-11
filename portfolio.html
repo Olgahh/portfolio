@@ -1,46 +1,78 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
     <title>Olga Hijazin's Portfolio</title>
     <link rel="stylesheet" href="portfolio.css">
   </head>
 
   <body>
-    <header>
-      <h1>Hi, I'm Olga Hijazin</h1>
-      <h2>Welcome to my profile</h2>
-    </header>
+<!-- Nav Bar -->
+    <ul class="nav nav-pills fixed-top">
+      <li class="nav-item">
+          <a class="nav-link" href="#top">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#center">Hobbies & Interests</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#bottom">Contacts</a>
+      </li>
+    </ul>
+<!-- End of Nav Bar -->
 
+
+<!-- <header-->
+
+    <div class="jumbotron jumbotron-fluid">
+      <div class ="container text-sm-center py-5" >
+        <h1 class="display-4 mt-5 pb-5">Hi, I'm Olga Hijazin</h1>
+        <p class="lead mb-5">Welcome to my portfolio</p>
+      </div>
+    </div>
+<!-- End of header -->
+
+<!-- Main -->
     <main>
-      <div class="hobbies">
-        <h3>Hobbies</h3>
-          <ul>
-            <li>Cooking</li>
-            <li>Playing Basketball</li>
-            <li>Learning New Languages</li>
-          </ul>
-      </div>
+    <div class="container pt-4 text-sm-center" id="center">
+      <div class="row justify-content-md-center">
+        <div class="col-md-auto col-xl-5 ml-auto"><!-- Meduim Devices -->
+          <h3 class=" display-4 mb-4 ">Hobbies</h3>
+            <ul>
+              <li><img class="img-icon mb-4 img-fluid rounded-circle" src="Baking.png" alt="cake-icon"> Baking - Cakes</li>
+              <li><img class="img-icon mb-4 img-fluid rounded-circle" src="Basketball.png" alt="basketball-icon"> Playing Basketball</li>
+              <li><img class="img-icon mb-4 img-fluid rounded-circle" src="language.png" alt="languages-icon"> Learning New Languages</li>
+            </ul>
+        </div>
+        <div class="col-md-auto col-xl-5 ml-auto"><!-- Meduim Devices -->
+          <h3 class="display-4 mb-4 ">Interests</h3>
+            <ul>
+              <li><img class="img-icon mb-4 img-fluid rounded-circle" src="travel.png" alt="Travelling-icon"> Travelling</li>
+              <li><img class="img-icon mb-4 img-fluid rounded-circle" src="netflix.png" alt="netflix-icon"> Watching Netflix</li>
+              <li><img class="img-icon mb-4 img-fluid rounded-circle" src="musiclistening.png" alt="music-listening-icon"> Listening to music</li>
+              <li><img class="img-icon mb-4 img-fluid rounded-circle" src="mobilecamera.png" alt="mobile-camera-icon"> Taking Photos of Nature and Pets</li>
+            </ul>
+        </div>
+    </div>
+  </div></main>
+  <!-- End of Main -->
 
-      <div class="interests">
-        <h3>Interests</h3>
-        <ul>
-          <li>Travelling</li>
-          <li>Watching Netflix</li>
-          <li>Listening to music</li>
-          <li>Nature and Pets Photography</li>
-        </ul>
-      </div>
-    </main>
+    <footer>
+    <div class="container text-sm-center" id="bottom">
+      <h4>My contacts:</h4>
+    <div class="row p-3">
+        <div class="col">Email<br> <a href="mailto:hijazin.olga@gmail.com"  target="_blank"><img class="img-icon" src="gmail.png" alt="gmail-icon"><a/></div>
+        <div class="col">Github<br> <a href="https://github.com/Olgahh"  target="_blank"><img class="img-icon" src="github.png" alt="github-icon"></a> </div>
+        <div class="col">Linked-in<br> <a href="https://www.linkedin.com/in/olga-hijazin-61b909197/" target="_blank"><img class="img-icon" src="linkedin.png" alt="linkedin-icon"></a></div>
+        <div class="col">Facebook<br> <a href="https://www.facebook.com/olga.hijazin" target="_blank"  target="_blank"><img class="img-icon" src="facebook.png" alt="facebook-icon"></a> </div>
+        <div class="col">Instagram<br> <a href="https://www.instagram.com/olgahijazin_96/"  target="_blank"><img class="img-icon" src="instagram.png" alt="instagram-icon"></a></div>
+    </div>
+  </div><!-- /footer -->
+</footer>
 
-    <footer  class="footer" >
-      <h3>My contacts</h3>
-        <ul id="my-profiles">
-          <li>My Email: <a href="mailto:hijazin.olga@gmail.com"  target="_blank"><img class="img-icon" src="gmail.png" alt="gmail-icon"><a/></li>
-          <li>Github: <a href="https://github.com/Olgahh"  target="_blank"><img class="img-icon" src="github.png" alt="github-icon"></a></li>
-          <li>Linked-in: <a href="https://www.linkedin.com/in/olga-hijazin-61b909197/" target="_blank"><img class="img-icon" src="linkedin.png" alt="linkedin-icon"></a></li>
-          <li>Facebook: <a href="https://www.facebook.com/olga.hijazin" target="_blank"  target="_blank"><img class="img-icon" src="facebook.png" alt="facebook-icon"></a></li>
-          <li>Instagram: <a href="https://www.instagram.com/olgahijazin_96/"  target="_blank"><img class="img-icon" src="instagram.png" alt="instagram-icon"></a></li>
-        </ul>
-    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
   </body>
 </html>
